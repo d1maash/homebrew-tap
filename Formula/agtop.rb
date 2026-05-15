@@ -1,25 +1,25 @@
 class Agtop < Formula
   desc "htop-like TUI for local AI coding agent sessions (Claude Code, Codex)"
   homepage "https://github.com/d1maash/agtop"
-  version "0.2.3"
+  version "0.2.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/d1maash/agtop/releases/download/v0.2.3/agtop-aarch64-apple-darwin.tar.xz"
-      sha256 "ea9939bea098fae2afbc49fbef4b8ce32af4d69917576f0c902d100bcb08c3bf"
+      url "https://github.com/d1maash/agtop/releases/download/v0.2.4/agtop-aarch64-apple-darwin.tar.xz"
+      sha256 "71bdb1a285d05c3eec58046f5bf882512c99d6fc90a4d2c357671abca186a074"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/d1maash/agtop/releases/download/v0.2.3/agtop-x86_64-apple-darwin.tar.xz"
-      sha256 "f3d49f92bf50a3f6fe3ee95a0553e5787971acb414aa6bf880da16064556d00f"
+      url "https://github.com/d1maash/agtop/releases/download/v0.2.4/agtop-x86_64-apple-darwin.tar.xz"
+      sha256 "4c0a5b67199dd87cdb0028410c1925da301234d0acbe68d6b025c856e9512d9a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/d1maash/agtop/releases/download/v0.2.3/agtop-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d01026ff9024b67c1a11df344409fbccb614e5de4beae6b5cffc863adbed5e20"
+      url "https://github.com/d1maash/agtop/releases/download/v0.2.4/agtop-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "eb4751aca29222911b795dbf66b572971c2c687a6ffd231e75d628e8be19b7f2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/d1maash/agtop/releases/download/v0.2.3/agtop-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ab328222d23fd04603f7fca573e0418bf307bb0898a94076ac796eece4b60956"
+      url "https://github.com/d1maash/agtop/releases/download/v0.2.4/agtop-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "becc10a2f26bdfc5a8937a4adbdafec6e35915339774195d9d371bc3db260a42"
     end
   end
   license "MIT"
